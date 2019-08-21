@@ -1,0 +1,274 @@
+    1  sudo apt-get install build-essential 
+    2  sudo apt-get upgrade
+    3  cd /media/user/VBox_GAs_5.2.4
+    4  ./VBoxLinuxAdditions.run 
+    5  sudo ./VBoxLinuxAdditions.run 
+    6  cd ./Downloads/
+    7  sudo ./Qu
+    8  ls
+    9  sudo ./QuartusLiteSetup-17.1.0.590-linux.run 
+   10  lsusb
+   11  sudo adduser user vboxusers
+   12  lsusb
+   13  java
+   14  sudo apt-get install default-jre
+   15  cd Downloads/
+   16  java -jar Mars4_5.jar 
+   17  cd /home/user/intelFPGA_lite/17.1/modelsim_ase/bin
+   18  ./vsim 
+   19  cd /home/user/intelFPGA_lite/17.1/modelsim_ase/linux
+   20  ./vsim
+   21  vim vsim
+   22  vi vsim
+   23  sudo apt-get install libstdc++6:i386 libc6:i386 libx11-dev:i386 libxext-dev:i386 libxau-dev:i386 libxdmcp-dev:i386 libfreetype6:i386 fontconfig:i386 
+   24  sudo apt-get install libxft-dev:i386
+   25  sudo apt-get install libncurses5-dev:i386
+   26  cd /etc/udev/rules.d/
+   27  ls
+   28  lsusb
+   29  cd ~/intelFPGA_lite/17.1/modelsim_ase/linux
+   30  ls
+   31  ./vsim
+   32  cd ..
+   33  find -r *.ico
+   34  find *.ico
+   35  find 
+   36  cd ./modelsim_ase/linux
+   37  ls
+   38  cp
+   39  cp --help
+   40  cp ~/Downloads/modelsim.jpg ~/intelFPGA_lite/17.1/modelsim_ase/modelsim.jpg
+   41  sudo cp ~/Downloads/modelsim.jpg ~/intelFPGA_lite/17.1/modelsim_ase/modelsim.jpg
+   42  lsusb
+   43  /media/user/VBox_GAs_5.2.6
+   44  cd /media/user/VBox_GAs_5.2.6
+   45  ./VBoxLinuxAdditions.run 
+   46  sudo ./VBoxLinuxAdditions.run 
+   47  echo $PATH
+   48  jtagconfig 
+   49  ps aux|grep jtagd
+   50  sudo killall -9 jtagd
+   51  sudo jtagd
+   52  sudo ./jtagd
+   53  ./jtagconfig 
+   54  sudo killall -9 jtagd
+   55  ./jtagd --foreground --debug
+   56  sudo apt-get install libudev-dev 
+   57  cd ~/intelFPGA_lite/17.1/quartus/bin/
+   58  ./jtagconfig 
+   59  ./jtagd 
+   60  ./jtagconfig 
+   61  ps -A | grep jtagd
+   62  killall jtagd
+   63  jtagd --user-start
+   64  ./jtagd --user-start
+   65  ./jtagconfig 
+   66  ./jtagconfig 
+   67  sudo ln -s /lib/x86_64-linux-gnu/libudev.so.1 /usr/lib/libudev.so.0
+   68  ./jtagd --foreground --debug
+   69  sudo killall -9 jtagd
+   70  ./jtagd --foreground --debug
+   71  sudo killall -9 jtagd
+   72  lsusb
+   73  cd ~
+   74  sudo mount -t vboxsf wd ~/temp
+   75  lsusb
+   76  cd ./intelFPGA_lite/17.1/quartus/bin/
+   77  ./jtagconfig 
+   78  sudo adduser user vboxsf
+   79  /media/user/VBox_GAs_5.2.7
+   80  search Telegram
+   81  find Telegram
+   82  find ~ Telegram
+   83  find ~ "Telegram"
+   84  mkdir sim
+   85  cd sim
+   86  vsim -do ../modelsim_script.tcl
+   87  sudo ln -s ~/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vsim
+   88  alias vsim ~/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vsim
+   89  which vsim
+   90  vsim -do ../modelsim_script.tcl
+   91  alias vsim ~/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vsim /usr/bin/vsim
+   92  sudo ln -s ~/intelFPGA_lite/17.1/modelsim_ase/linuxaloem/vsim /usr/bin/vsim
+   93  vsim -do ../modelsim_script.tcl
+   94  sudo rm -f vsim
+   95  msim --version
+   96  vsim
+   97  sudo vsim
+   98  chmod --help
+   99  sudo chmod -R 777 .
+  100  sudo mkdir projects
+  101  cd projects
+  102  sudo mkdir my_first_fpga
+  103  dmesg | tail
+  104  echo PATH
+  105  echo $PATH
+  106  nano .bashrc
+  107  source .bashrc
+  108  which jtagd
+  109  dmesg | tail
+  110  sudo fdisk -l
+  111  ls /media
+  112  which jtagd
+  113  jtagd --version
+  114  jtagconfig --version
+  115  sudo mv /etc/udev/rules.d/51-usbblaster.rules etc/udev/rules.d/91-usbblaster.rules
+  116  ls etc/udev/rules.d
+  117  ls etc/udev/
+  118  sudo mv /etc/udev/rules.d/51-usbblaster.rules /etc/udev/rules.d/91-usbblaster.rules
+  119  sudo reboot
+  120  libusb-config --version
+  121  sudo apt-install libusb-dev
+  122  sudo apt install libusb-dev
+  123  sudo killall -9 jtagd
+  124  sudo jtagd
+  125  source .bashrc
+  126  echo $PATH
+  127  which jtagd
+  128  jtagd --version
+  129  sudo jtagd
+  130  jtagd
+  131  sudo killall -9 jtagd
+  132  jtagd
+  133  cd
+  134  ls
+  135  cd Desktop/
+  136  ls
+  137  cd ITP
+  138  gcc fact.c -o f
+  139  ls
+  140  gcc fact.c -o f
+  141  ./f
+  142  gcc fact.c -o f
+  143  ./f
+  144  ./f.exe
+  145  ls
+  146  ./f
+  147  ls
+  148  gcc fact.c -o f
+  149  ./f
+  150  gcc fact.c -o f
+  151  ./f
+  152  gcc -S -Og fact.c -o f.s
+  153  gcc -S -Og fact.c -o f1.s
+  154  gcc -S -Og fact_goto.c -o f_goto.s
+  155  gcc -S -Og fact_while.c -o f_while.s
+  156  gcc -S -Og fact_do_while.c -o f_do_while.s
+  157  gcc -S -Og fact_while.c -o while.s
+  158  cd
+  159  Desktop/
+  160  ls
+  161  cd Desktop/
+  162  cd ITP
+  163  gcc -S -Og fact_while.c -o while.s
+  164  gcc while.s -c while.o
+  165  gcc while.s -c while
+  166  gcc -c fact_while.c -o while.o
+  167  objdump -d while.o
+  168  gcc -c  while.s -o while.o
+  169  objdump while.o
+  170  objdump -d while.o
+  171  objdump -d while.s
+  172  objdump -d while.exe
+  173  gcc fact_while -o while
+  174  gcc fact_while.c -o while
+  175  objdump -d while.exe
+  176  objdump -d while
+  177  gcc fact_while.c -o while
+  178  objdump -d while
+  179  gcc while.c -o while
+  180  gcc fact_while.c -o while
+  181  objdump -d while
+  182  objdump -d while.o
+  183  cd Desktop/
+  184  cd ITP
+  185  objdump -d while.o
+  186  gcc -S -Og fact_while.c -o while.s
+  187  gcc -c while.s -o while.o
+  188  objdump -d while.o
+  189  gcc -S -Og fact_while.c -o while.s
+  190  gcc -c while.s -o while.o
+  191  objdump -d while.o
+  192  gcc -S -Og cond.c -o cond.s
+  193  objdump -d cond.s
+  194  gcc -c cond.s -o cond.o
+  195  objdump -d cond.o
+  196  gcc cond.c -o cond
+  197  objdump -d cond
+  198  gcc -S -Og cond.c -o cond.s
+  199  gcc -c  cond.c -o cond.s
+  200  gcc -c  cond.c -o cond.o
+  201  objdump -d cond.o
+  202  gcc -S -Og cond.c -o cond.s
+  203  gcc -S -Og cond1.c -o cond1.s
+  204  cd Desktop/
+  205  cd ITP
+  206  touch fib.c
+  207  gcc -S -Og fib.c -o fib.s
+  208  gcc -S -O1 fib.c -o fib1.s
+  209  cd week14
+  210  touch fibgoto.c
+  211  gcc -S -O1 fib.c -o fib.s
+  212  gcc -S -Og fibgoto.c -o fib1.s
+  213  gcc -S -O1 fib.c -o fib.s
+  214  gcc -S -Og fibgoto.c -o fib1.s
+  215  gcc -S -Og fib.c -o fib.s
+  216  gcc -S -O1 fib.c -o fib.s
+  217  touch do_while.c
+  218  gcc -S -O1 do_while.c -o dowhile.s
+  219  gcc -S -Og fibgoto.c -o fib1.s
+  220  touch condgoto
+  221  touch condgoto.c
+  222  gcc -S -O1 condgoto.c -o cond.s
+  223  cd
+  224  ls
+  225  whoami
+  226  hostname
+  227  man system
+  228  ls
+  229  ls > list.txt
+  230  man ls
+  231  ls
+  232  Desktop
+  233  cd Desktop
+  234  ls > list.txt
+  235  touch list.txt
+  236  touch l.txt
+  237  cd ~
+  238  mkdir ~/week1
+  239  cd ~/week1
+  240  /usr/bin/gcc >ex1.txt
+  241  cd /usr/bin
+  242  ls
+  243  q
+  244  cd ~
+  245  ls
+  246  cd week1
+  247  touch ex1.txt
+  248  grep gcc
+  249  man grep
+  250  /usr/bin
+  251  cd /usr/bin
+  252  ls
+  253  ls| sort -r| less
+  254  ls| sort -r| gcc
+  255  ls| sort -r| *gcc*
+  256  ls|sort -r| less *gcc*
+  257  ls
+  258  ls|sort -r| less *gcc*
+  259  ls *gcc* |sort -r| less
+  260  ls *gcc* |sort -r| less > ~/week1/ex1.txt
+  261  cd ~
+  262  ls
+  263  cd week1
+  264  ls
+  265  ex1.txt
+  266  gedit ex1.txt
+  267  sudo apt install gedit
+  268  1
+  269  touch pizza
+  270  touch coffee
+  271  rm pizza
+  272  rm coffee
+  273  ls
+  274  history>ex2.txt
