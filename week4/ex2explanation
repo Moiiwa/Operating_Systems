@@ -1,0 +1,4 @@
+For program that uses fork() 3 times in total we have 8 processes.
+For one with 5 we have 32.
+Each fork makes every process create one more process. 
+With other words: number of processes doubles with every fork() use.

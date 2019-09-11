@@ -1,0 +1,3 @@
+With every use of parent changes, because with every execution of programm
+we have different processes with different PID.
+Child's pid doesn't change.
