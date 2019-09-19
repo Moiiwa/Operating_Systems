@@ -36,11 +36,9 @@ void* producer_actions(void * stack){
 		
 		if(buffer->filled==buffer->size)
 			put_producer_asleep();
-		if (i%7==0&&producer_asleep==0){
+		if (i%233==0&&producer_asleep==0){
 			buffer->a[buffer->filled]=1;
 			++buffer->filled;
-			if (i%20==0)
-				printf("%d\n",buffer->filled);
 			if (buffer->filled>0)
 				wake_up_consumer();
 		}
@@ -58,7 +56,7 @@ void* consumer_actions(void * stack){
 	while (1){
 		if(buffer->filled==0)
 			put_consumer_asleep();
-		if (i%8==0&&consumer_asleep==0){
+		if (i%67==0&&consumer_asleep==0){
 			buffer->a[buffer->filled]=0;
 			--buffer->filled;
 			if (buffer->filled<buffer->size)
