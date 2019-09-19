@@ -1,0 +1,20 @@
+#!/bin/bash
+
+FILE=file;
+LOCK=file.lock;
+
+if [ ! -f $FILE ]; then
+	echo "0" >> $FILE;
+fi
+
+while true
+do
+	if [ -f $LOCK ]; then 
+		exit 6
+	fi
+	touch $LOCK
+	NUM=$(tail -n 1 $FILE)
+	NEW_NUM=$((NUM + 1));
+	echo $NEW_NUM >> $FILE;
+	rm -f $LOCK
+done
