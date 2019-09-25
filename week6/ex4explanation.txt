@@ -1,0 +1,6 @@
+The output will depend on the signal we've sent. 
+For SIGKILL: Interrupt signal was caught
+For SIGSTOP: Stop signal was caught
+For SIGUSR1: User signal was caught
+SIGUSR1 should be sent either from the other console, or process
+should run in background for this signal to be caught.
