@@ -1,0 +1,7 @@
+(B[m 2447 moiwa     20   0   53672  52508   1268 S   1,6   2,6   0:00.01 ex2        
+(B[m 2447 moiwa     20   0   74160  72836   1268 S   1,0   3,6   0:00.02 ex2        
+(B[m 2447 moiwa     20   0   84404  83132   1268 S   1,0   4,1   0:00.03 ex2
+
+
+Here's the output for the first three seconds, memory usage is growing with every step.
+

@@ -1,0 +1,1 @@
+Each second we allocate 10 MB and free memory decreases by 10 MB, while we have enought memory, swaps don't occur.

@@ -1,0 +1,12 @@
+11128
+21784
+32080
+42376
+52672
+62968
+73000
+83296
+93592
+103888
+
+Memory usage is growing with every step, because on every step we allocate 10 MB.

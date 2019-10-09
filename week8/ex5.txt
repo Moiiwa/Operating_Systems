@@ -1,0 +1,3 @@
+Physical address is a real address in the memory which really exists, meanwhile virtual
+address is an abstraction which represents non-existing in real life address which is associated
+with an existing physical address.

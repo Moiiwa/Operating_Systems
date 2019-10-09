@@ -1,0 +1,4 @@
+Addresses are 16 bit. 
+8 KB = 2^13 Bytes.
+So, for single-level linear page table we need 2^(16-13) entries.
+Thus, we need 8 entries.
