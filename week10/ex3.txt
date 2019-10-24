@@ -1,0 +1,10 @@
+1)
+-rw-rw-rw- 1 moiwa moiwa 0 окт 23 14:25 _ex3.txt
+2)
+-rwxrw-rwx 1 moiwa moiwa 0 окт 23 14:25 _ex3.txt
+3)
+-rwxrwxrwx 1 moiwa moiwa 0 окт 23 14:25 _ex3.txt
+4)
+660 - user and group have rw permission, others have no permissions
+775 - user and group have rwx permission, others have rx permission
+777 - all have rwx permission

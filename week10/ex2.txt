@@ -1,0 +1,7 @@
+Nothing was printed after step 0
+
+Output after step 1:
+/home/moiwa/Desktop/OS/week1/file.txt
+/home/moiwa/Desktop/OS/week10/_ex2.txt
+
+Nothing was printed after step 2
