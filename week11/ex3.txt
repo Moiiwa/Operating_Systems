@@ -1,0 +1,1 @@
+Stdout uses (my assumption) line buffering, and when we almost at the same time print new line character, we print buffered string twice. Meanwhile in second program whe just do additional two change of line.
