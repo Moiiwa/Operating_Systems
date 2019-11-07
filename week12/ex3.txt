@@ -1,0 +1,57 @@
+time ./copy ex1.c ex3a.txt
+
+real	0m0,002s
+user	0m0,001s
+sys	0m0,000s
+
+time -DBUF_SIZE=1 ./copy ex1.c ex3a.txt
+
+real	0m0,274s
+user	0m0,145s
+sys	0m0,038s
+
+time -DBUF_SIZE=10 ./copy ex1.c ex3a.txt
+
+real	0m0,246s
+user	0m0,140s
+sys	0m0,024s
+
+time -DBUF_SIZE=100 ./copy ex1.c ex3a.txt
+
+real	0m0,226s
+user	0m0,120s
+sys	0m0,037s
+
+Conclusion: The smaller buffer, the more time program is running.
+Big buffer increases speed.
+
+AFTER ADDING O_SYNC
+
+time ./copy ex1.c ex3a.txt
+
+real	0m0,077s
+user	0m0,001s
+sys	0m0,000s
+
+time -DBUF_SIZE=1 ./copy ex1.c ex3a.txt
+
+real	0m0,162s
+user	0m0,082s
+sys	0m0,040s
+
+time -DBUF_SIZE=10 ./copy ex1.c ex3a.txt
+
+real	0m0,179s
+user	0m0,106s
+sys	0m0,032s
+
+time -DBUF_SIZE=100 ./copy ex1.c ex3a.txt
+
+real	0m0,199s
+user	0m0,095s
+sys	0m0,039s
+
+Conclusion: The use of O_SYNC decreases speed, meanwhile the bigger buffer also affects negatively to speed.
+
+
+
