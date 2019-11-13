@@ -1,0 +1,9 @@
+Recovery is the best way when deadlock has already happened. We have three cases: 1)Kill one of the processes and take its resourses.
+	     2)Take one of the processes' resources and save state in memory if it's possible.
+	     3)Load to the last checkpoint, when deadlock didn't happen yet.
+Prevention is the way when we want our system not to let deadlock happen. During constructing the OS we should check that at least one of the deadlock conditions doesn't hold:
+	1)Either avoid assigning resources till it's really necessary.
+	2)Or assign resources before the beginning of execution.
+	3)Virtualize some resources
+	4)Or make process to be entitled to only one resource at a time.
+Avoiding deadlocks is mostly impossible in real life, because we don't know how many resources we need for each process, but if we could, we would simply not let system to give resources the way, that system will be not in safe state.
